@@ -1,0 +1,177 @@
+<!doctype html>     <!--This is for the browser to render the page in
+  normal format, if this line doesnt exist, the 
+  browser will render the page in a weird format-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Chu's China Bistro</title>
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--<script src="/ajax-utils.js"></script>-->
+  <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  <!--<script src="bootstrap-4.3.1-dist/js/script.js"></script>-->
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a href="index.html" class="d-none d-xl-block">
+          <img src="/images/restaurant-logo_large.png" alt="Logo image">
+        </a>
+
+        <a href="index.html" class="d-none d-md-block d-lg-block d-xl-none">
+          <img src="/images/restaurant-logo_medium.png" alt="">
+        </a>
+
+        <a class="navbar-brand" href="index.html">
+          <div id="BrandName">David Chu's China Bistro</div>
+          <div id="KosherCertified">
+            <img src="/images/star-k-logo.png" alt="">
+            <span>Kosher Certified</span>
+          </div>
+        </a>
+
+        <li id="tel1" class="d-none d-md-block d-lg-none">
+          <a class="nav-link" href="tel:410-608-5008">
+            <div id="num">410-608-5008</div>
+            <div id="mess">*We deliver</div>
+          </a>
+        </li>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="nav-list" class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  <span class="fa fa-cutlery"></span>
+                  <div>Menu</div>
+                </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="fa fa-star"></span>
+                <div>About</div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="fa fa-certificate"></span>
+                <div>Awards</div>
+              </a>
+            </li>
+
+            <li id="tel" class="nav-item d-none d-lg-block d-xl-block">
+              <a class="nav-link" href="tel:410-608-5008">
+                <div id="num">410-608-5008</div>
+                <div id="mess">*We deliver</div>
+              </a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+
+  <div class="container">
+    <a class="btn nav-link d-xs-block d-sm-block d-md-none" href="tel:410-608-5008">
+      <div id="num">
+        <span class="fa fa-phone"></span>
+        <span>410-608-5008</span>
+      </div>
+      <div id="mess">*We deliver</div>
+    </a>
+  </div>
+</header>		
+
+<div id="main-content" class="container">
+  <h2 id="menu-categories-title" class="text-center">Menu categories</h2>
+  <div class="text-center">
+    Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
+  </div>
+<section id="categories-section" class="row">
+  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+    <a href="single-category.html">
+      <div class="category-tile">
+        <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
+        <span>Lunch</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+    <a href="single-category.html">
+      <div class="category-tile">
+        <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
+        <span>Lunch</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+    <a href="single-category.html">
+      <div class="category-tile">
+        <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
+        <span>Lunch</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+    <a href="single-category.html">
+      <div class="category-tile">
+        <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
+        <span>Lunch</span>
+      </div>
+    </a>
+  </div>
+</section>
+</div>
+
+<footer class="card-footer">
+  <div class="container">
+    <div class="row">
+      <div id="hours" class="col-md-4 col-lg-4 col-xl-4">
+        <span class="footer-title">Hours</span>
+        <br>
+        Sun-Thurs: 11:15am - 10:00pm
+        <br>
+        Fri: 11:15am - 2:30pm
+        <br>
+        Saturday Closed
+        <div class="dropdown-divider d-sm-block d-md-none"></div>
+      </div>
+      <div id="address" class="col-md-4 col-lg-4 col-xl-4">
+        <span class="footer-title">Address</span>
+        <br>
+        7105 Reisterstown Road
+        <br>
+        Baltimore, MD 21215
+        <br>
+        <div id="address-line-4">* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</div>
+        <div class="dropdown-divider d-sm-block d-md-none"></div>
+      </div>
+      <div id="quotes" class="col-md-4 col-lg-4 col-xl-4">
+        <span id="quote-1">"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</span>
+        <br>
+        <br>
+        <span id="quote-2">"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</span>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <span>© Copyright David Chu's China Bistro 2016 | Admin</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
