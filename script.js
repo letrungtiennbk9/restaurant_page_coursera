@@ -12,7 +12,7 @@ $(function(){
 
   var homeHtml = "snippet/home-snippet.html";
   var allCategoriesUrl = "https://davids-restaurant.herokuapp.com/categories.json";
-  var categoriesTitle = "/snippet/categories-title-snippet.html";
+  var categoriesTitle = "snippet/categories-title-snippet.html";
   var category = "snippet/category-snippet.html";
   var singleCategoryUrl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
   var singleCatTitleUrl = "snippet/single-categories-title-snippet.html";
